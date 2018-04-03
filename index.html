@@ -1,7 +1,440 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<head>
+  <title>Statybų bendrovė - Rekana</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <div id="Hero" class="container-fluid hero parallax">
+    <img src="images/Rekana_logotipas18.png" class="img-responsive center-block" alt="Image" width="50%" height="50%">
+    <div class="welcome-desc">
+      <h2>Statybų bendrovė</h2>
+      <a href="#ApieMus" class="btn btn-primary btn-lg" role="button" data-offset="50">Sužinoti daugiau</a>
+    </div>
+
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top=mx-auto>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">                      
+      </button>
+        <img src="images/Rekana_logotipas18.png" class="img-responsive mx-auto d-block" alt="Image" width="40%" height="40%">
+      </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#ApieMus">Apie mus</a></li>
+            <li><a href="#Paslaugos">Paslaugos</a></li>
+            <li><a href="#Darbai">Atlikti darbai</a></li>
+            <li><a href="#KlientaiIrPartneriai">Klientai ir partneriai</a></li>
+            <li><a href="#Komanda">Komanda</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kontaktai<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#KaipRasti">Kaip rasti</a></li>
+                <li><a href="#Susisiekite">Susisiekite</a></li>
+                <li><a href="#Rekvizitai">Rekvizitai</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  </div>
+
+  <div class="container">
+    <div class="row" id="ApieMus">
+      <div class="col-sm-6">
+        <h1 align="center">Apie mus</h1>
+        <p>UAB Rekana – daugiau nei 15 metų sėkmingai dirbanti statybos bendrovė. Pagrindinės veiklos sritys – visuomeninės,
+          komercinės ir gamybinės paskirties pastatų statyba ir rekonstrukcija, bei individualių namų statyba. Įmonei suteiktas
+          LR Aplinkos ministerijos atestatas.</p>
+        <p>Mūsų misija - pažinti užsakovų poreikius ir pasiūlyti tinkamiausius sprendimus. Geriausią darbą garantuoja mūsų darbuotojų
+          profesionalumas ir motyvacija.</p>
+        <p>Vizija - tapti pavyzdine statybos įmone.</p>
+        <p>Garantuojame:</p>
+        <p>Kokybę ir ilgaamžiškumą;</p>
+        <p>Novatoriškas technologijas ir sprendimus;</p>
+        <p>Maksimalų klientų poreikių patenkinimą;</p>
+        <p>Užsakovų pasiūlymų įgyvendinimą;</p>
+        <p>Mūsų devizas: kokybė, ilgaamžiškumas, patikimumas.</p>
+      </div>
+      <div class="col-sm-6 text-center">
+        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel1" data-slide-to="1"></li>
+            <li data-target="#myCarousel1" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active atestatas">
+              <img src="images/atestatai/atestatas-rekana2-1.jpg" alt="Image">
+            </div>
+
+            <div class="item atestatas">
+              <img src="images/atestatai/atestatas-aleksandras2-1.jpg" alt="Image">
+            </div>
+            <div class="item atestatas">
+              <img src="images/atestatai/atestas-mantas2-1.jpg" alt="Image">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+          <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Paslaugos" class="container-fluid text-center parallax">
+    <h1 class="widget-title"><span>Paslaugos</span></h1>
+    <div class="service col-md-3 col-sm-6 col-xs-6">
+      <h4>Individualūs namai</h4>
+      <div>
+        <p>Statyba</p>
+      </div>
+    </div>
+    <div class="service col-md-3 col-sm-6 col-xs-6">
+      <h4>Gamybiniai pastatai</h4>
+      <div>
+        <p>Statyba ir rekonstrukcija</p>
+      </div>
+    </div>
+    <div class="service col-md-3 col-sm-6 col-xs-6">
+      <h4>Komerciniai pastatai</h4>
+      <div>
+        <p>Statyba ir rekonstrukcija</p>
+      </div>
+    </div>
+    <div class="service col-md-3 col-sm-6 col-xs-6">
+      <h4>Visuomeniniai pastatai</h4>
+      <div>
+        <p>Statyba ir rekonstrukcija</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="Darbai" class="container-fluid text-center">
+
+    <h1>Atlikti darbai</h1>
+    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+        <li data-target="#myCarousel2" data-slide-to="2"></li>
+        <li data-target="#myCarousel2" data-slide-to="3"></li>
+        <li data-target="#myCarousel2" data-slide-to="4"></li>
+        <li data-target="#myCarousel2" data-slide-to="5"></li>
+        <li data-target="#myCarousel2" data-slide-to="6"></li>
+        <li data-target="#myCarousel2" data-slide-to="7"></li>
+        <li data-target="#myCarousel2" data-slide-to="8"></li>
+        <li data-target="#myCarousel2" data-slide-to="9"></li>
+        <li data-target="#myCarousel2" data-slide-to="10"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/darbai/DSC05884-resized-1.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Mokslinė laboratorija </h3>
+            <p>Ragainės g. 100 Šiauliuose, 3513 m2</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/darbai/DSC05877-resize-1.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Šildymo ir vėdinimo įrangos gamybos pastato dalies rekonstravimas</h3>
+            <p> Ragainės g. 100 Šiauliuose, 2635 m2</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/darbai/tornado-edit-1-1.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Casino Tornado</h3>
+            <p>Aušros al. 64a Šiauliuose, 936m2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/11.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Trakų g. 47</h3>
+            <p>Trakų g. 47 Šiauliuose, 372m2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/31.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Prezenta</h3>
+            <p>Vytauto 76a Šiauliuose, 690m2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/21.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Šiaulių arena. Rekana atliko darbus kaip PST subrangovas</h3>
+            <p>J. Jablonskio g. 16 Šiauliuose. </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/61.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Saldos prekyba pastatas</h3>
+            <p>Išradėjų 13b Šiauliai, 770m2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/41.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Ūkininkas K. Jusčius- Baltic Champignons</h3>
+            <p>Administracinis pastatas Gruzdžiuose, 532m2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/51.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Ūkininkas K. Jusčius- Baltic Champignons</h3>
+            <p>Administracinis pastatas Gruzdžiuose, 532m2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/81.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Ūkininkas K. Jusčius- Baltic Champignons</h3>
+            <p>Administracinis pastatas Gruzdžiuose, 532m2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/darbai/71.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Ūkininkas K. Jusčius- Baltic Champignons</h3>
+            <p>Administracinis pastatas Gruzdžiuose, 532m2</p>>
+          </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+        <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="KlientaiIrPartneriai" class="container-fluid text-center">
+    <h1>Klientai ir patneriai</h1>
+    <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel3" data-slide-to="1"></li>
+        <li data-target="#myCarousel3" data-slide-to="3"></li>
+        <li data-target="#myCarousel3" data-slide-to="4"></li>
+        <li data-target="#myCarousel3" data-slide-to="5"></li>
+        <li data-target="#myCarousel3" data-slide-to="6"></li>
+        <li data-target="#myCarousel3" data-slide-to="7"></li>
+        <li data-target="#myCarousel3" data-slide-to="8"></li>
+        <li data-target="#myCarousel3" data-slide-to="9"></li>
+        <li data-target="#myCarousel3" data-slide-to="10"></li>
+        <li data-target="#myCarousel3" data-slide-to="11"></li>
+        <li data-target="#myCarousel3" data-slide-to="12"></li>
+        <li data-target="#myCarousel3" data-slide-to="13"></li>
+        <li data-target="#myCarousel3" data-slide-to="14"></li>
+      </ol>
+
+      <div class="carousel-inner carousel2" role="listbox">
+        <div class="item active">
+          <img src="images/klientai-partneriai/Baltic_Champs-Logo.png" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/Casino-Tornado-.jpg" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/dantechnika-logo.png" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/gelsva_logo_.jpg" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/iki-palink-logo.png" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/logo_new.jpg" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/matininkai-logo.gif" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/patronese-tekstiles-namai-logo.png" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/prezenta-logo.png" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/projektavimo-centras-logo.png" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/pst-logo.jpg" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/SALDA_logo-1.jpg" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/savitas-stilius-logo.png" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/sb-lizingas-logo.jpg" alt="Image">
+        </div>
+        <div class="item">
+          <img src="images/klientai-partneriai/sb-logo.png" alt="Image">
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+        <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="Komanda" class="container-fluid text-center parallax">
+    <div class="container">
+      <h1><span>Komanda</span></h1>
+      <div class="employee col-md-4 col-sm-6 col-xs-6">
+        <h4>Darbų vadovas</h4>
+        <div>
+          <p>Saidas Uogintas</p>
+          <p>+370 685 20178</p>
+          <p>saidas@rekana.lt</p>
+        </div>
+      </div>
+      <div class="employee col-md-4 col-sm-6 col-xs-6">
+        <h4>Projektų vadovas</h4>
+        <div>
+          <p>Gintaras Račkauskas</p>
+          <p>+370 611 56038</p>
+          <p>gintaras@rekana.lt</p>
+        </div>
+      </div>
+      <div class="employee col-md-4 col-sm-6 col-xs-6">
+        <h4>Vadybininkas</h4>
+        <div>
+          <p>Vaclovas Liaudanskis</p>
+          <p>+370 65621314</p>
+          <p>–</p>
+        </div>
+      </div>
+      <div class="employee col-md-4 col-sm-6 col-xs-6">
+        <h4>Sąmatininkė</h4>
+        <div>
+          <p>Ilona Aukščionytė</p>
+          <p>+ 370 652 97782</p>
+          <p>gamyba@rekana.lt</p>
+        </div>
+      </div>
+      <div class="employee col-md-4 col-sm-6 col-xs-6">
+        <h4>Projektų vadovas</h4>
+        <div>
+          <p>Mantas Olekauskas</p>
+          <p>+370 699 28636</p>
+          <p>–</p>
+        </div>
+      </div>
+      <div class="employee col-md-4 col-sm-6 col-xs-6">
+        <h4>Buhalterė</h4>
+        <div>
+          <p>Ingrida Sabulienė</p>
+          <p>+370 685 74584</p>
+          <p>buhalterija@rekana.lt</p>
+        </div>
+      </div>
+      <div class="employee col-md-12 col-sm-12 col-xs-12">
+        <h4>Direktorius</h4>
+        <div>
+          <p>Aleksandras Kalabuchovas</p>
+          <p>+370 699 64683</p>
+          <p>aleksandras@rekana.lt</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Kontaktai" class="container-fluid text-center">
+    <div class="row">
+      <div id="KaipRasti" class="col-sm-4">
+        <h1>Kaip rasti</h1>
+        <p>Ofisas: Išradėjų g. 13B - 40, 78149 Šiauliai. Taipogi šiuo adresu siųskite korespondenciją.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2236.2895914048763!2d23.303787!3d55.909678899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e5e253ad5e0369%3A0x92bcd338362e9ed3!2zScWhcmFkxJdqxbMgZy4gMTNCLCDFoGlhdWxpYWkgNzgxNDk!5e0!3m2!1sen!2slt!4v1427183743458"
+          width=100% height=100% frameborder="0" style="border:0"></iframe>
+      </div>
+      <div id="Susisiekite" class="col-sm-4">
+        <h1>Susisiekite</h1>
+        <p>Užpildykite formą jei norite susisiekti arba pateikti kandidatūrą. Šiuo metu į komandą priimtume darbų vadovą - sąmatininką.
+        </p>
+
+
+        <form>
+          <div class="form-group">
+            <label for="name">Jūsų vardas(būtina)</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">El. paštas (būtina)</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="subject">Tema</label>
+            <input type="text" class="form-control" id="subject">
+          </div>
+          <div class="form-group">
+            <label for="message">Žinutė</label>
+            <textarea class="form-control" rows="5" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-med">Siųsti</button>
+        </form>
+
+      </div>
+      <div id="Rekvizitai" class="col-sm-4">
+        <h1>Rekvizitai</h1>
+        <p>UAB „Rekana“ Dainų g. 51 – 26, 78259 Šiauliai</p>
+        <p>Telefonas +370 699 64683</p>
+        <p>Įmonės kodas: 145408349</P>
+        <p>kodas LT454083414</p>
+        <p>A/s LT21 7044 0600 0221 0059</p>
+        <p>AB SEB bankas 70440</p>
+        <p>info@rekana.lt</p>
+        <p>2017</p>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>

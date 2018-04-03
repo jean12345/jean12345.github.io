@@ -1,0 +1,80 @@
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {      
+      
+      width: auto;
+      max-height: 450px;
+      margin: auto;
+  }
+
+  .carousel2 > .item > img,
+  .carousel2 > .item > a > img {      
+      
+      height: 150px;
+      width: auto;
+      margin: auto;
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .welcome-desc {
+    color: #213f88;
+    text-align: center;
+}
+
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #213f88;
+    color: gray;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #213f88;
+    color: #ffffff;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #213f88;
+    box-shadow: none;
+    color: #ffffff;
+}
+ 
+  #Hero {padding-top:50px; padding-bottom:1080px;height:auto;color: #fff; background-image: url("./images/bg/DSC01736-3.jpg"); background-size: cover; background-position: center}
+  #ApieMus {padding-top:50px; padding-bottom:50px;height: auto; color: #000; background-color: #fff;}
+  #Paslaugos {padding-top:50px; padding-bottom:50px; height: auto;color: #fff; background-image: url("./images/bg/DSC01515-2.jpg"); background-size: cover;background-position: center}
+  #Darbai {padding-top:50px; padding-bottom:50px; height:auto;color: #000; background-color: #fff;}
+  #KlientaiIrPartneriai {padding-top:50px; padding-bottom:50px; height:auto;color: #000; background-color: #fff;}
+  #Komanda {padding-top:50px; padding-bottom:50px; height:auto;color: #fff; background-image: url("./images/bg/DSC02129-2.jpg"); background-size: cover; background-position: center}
+  #KaipRasti {padding-top:50px; padding-bottom:50px; height:auto;color: #000; background-color: #fff;}
+  #Susisiekite {padding-top:50px; padding-bottom:50px; height:auto; color: #000; background-color: #fff;}
+  #Rekvizitai {padding-top:50px; padding-bottom:50px; height:auto; color: #000; background-color: #fff;}
